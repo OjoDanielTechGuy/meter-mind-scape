@@ -3,8 +3,8 @@ import {
   LayoutDashboard, 
   Building2, 
   FileBarChart, 
-  Cpu, 
-  AlertTriangle,
+  Wrench,
+  Cog,
   Activity,
   Menu,
   X
@@ -16,8 +16,8 @@ const navItems = [
   { title: "Dashboard", path: "/", icon: LayoutDashboard },
   { title: "Utility Area", path: "/utility", icon: Building2 },
   { title: "Reports", path: "/reports", icon: FileBarChart },
-  { title: "How It Works", path: "/how-it-works", icon: Cpu },
-  { title: "Challenges", path: "/challenges", icon: AlertTriangle },
+  { title: "Maintenance Cost", path: "/maintenance", icon: Wrench },
+  { title: "Equipment", path: "/equipment", icon: Cog },
 ];
 
 const Sidebar = () => {
